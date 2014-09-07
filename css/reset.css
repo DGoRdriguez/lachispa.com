@@ -1,0 +1,482 @@
+a, abbr, acronym, address, applet, article, aside, audio,
+b, blockquote, big, body,
+center, canvas, caption, cite, code, command,
+datalist, dd, del, details, dfn, dl, div, dt, 
+em, embed,
+fieldset, figcaption, figure, font, footer, form, 
+h1, h2, h3, h4, h5, h6, header, hgroup, html,
+i, iframe, img, ins,
+kbd, 
+keygen,
+label, legend, li, 
+meter,
+nav,
+object, ol, output,
+p, pre, progress,
+q, 
+s, samp, section, small, span, source, strike, strong, sub, sup,
+table, tbody, tfoot, thead, th, tr, tdvideo, tt,
+u, ul, 
+var{
+    background: transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+    vertical-align: top; 
+	text-decoration:none;  
+	}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+table, table td { 
+	padding:0;
+	border:none;
+	border-collapse:collapse;
+}
+img {
+	vertical-align:top; 
+}
+embed { 
+	vertical-align:top;
+}
+
+/*Migradas Plantilla */
+
+.textbox{
+	font-size: 15px;
+	text-align: justify;
+	background-position:center;
+}
+.wrap{
+	width:80%;
+	margin:0 auto;
+	background: rgb(169, 10, 22);
+	-moz-transition:all .2s linear;
+	-webkit-transition:all .2s linear;
+	-o-transition:all .2s linear;
+	-ms-transition:all .2s linear;
+}
+.total{
+	webkit-box-shadow: 0px 0px 15px #E3E3E3;
+	--box-shadow: 0px 0px 15px #E3E3E3;
+	o-box-shadow: 0px 0px 15px #E3E3E3;
+	moz-box-shadow: 0px 0px 15px #E3E3E3;
+	background: rgb(169, 10, 22);
+	--box-shadow: inset 0 1px 0 #ffe7b7,inset 0 0 340px 0 #ffe7b7;
+	height: 90px;
+}
+.search-bar {
+	font-family: 'AmbleRegular';
+	float: right;
+	background:#FFEECF;
+	border: 1px solid #FCF1DD;
+	border-radius:60px;
+	-webkit-border-radius:60px;
+	-moz-border-radius:60px;
+	-o-border-radius:60px;
+}
+.search-bar ul li {
+	display: inline-block;
+	line-height: 0.0em;
+}
+.search-bar input[type="text"] {
+	border: none;
+	outline: none;
+	padding: 6px 10px 6px;
+	background: none;
+	color: #666;
+	width: 120px;
+    height:15px ;
+}
+.btn {
+	margin: 5px 5px 5px;
+	text-align: left;
+}
+.follow_icon {
+	list-style: none;
+	float:right;
+}
+.follow_icon li {
+	float: left;
+	margin-left: 13px;
+	padding-top: 8%;
+}
+.follow_icon li a img {
+	vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+.follow_icon li a:hover{
+	opacity:0.7;
+}
+.header_top_right{
+	float:right;
+}
+.header_top_right ul li{
+	display: inline-block;
+}
+.header_top_right ul li a{
+	font-size:13px;
+	color:#000;
+}
+.header_top_right ul li a:hover{
+	color:#99261F;
+}
+
+.header{
+   --padding:1%;
+}
+
+.logo{
+	float:left;
+    width: 135px;
+    height: 135px;
+}
+
+@media only screen and (max-width: 1024px) {
+	.wrap{
+		width:100%;
+		background: rgb(169, 10, 22);
+	}	
+}
+
+ @media only screen and (max-width: 640px) and (min-width: 10px) {
+	.wrap{
+		width:100%;
+	}
+	.col_1_of_5{ 
+		margin: 1% 0 1% 0%;
+	}
+	.span_1_of_5 {
+		width:94%;
+		padding:3%;  
+	}
+
+}
+
+
+.clear{clear:both;}/* clear float */
+
+.header-bot{
+	--padding: 0% 0;
+}
+
+body{
+	font-family:'AmbleRegular';
+	padding-bottom:5%;
+	background-size: cover;
+	background-position:center;
+	background-size: 100% 100%;
+    background: rgb(169, 10, 22);
+}
+
+.menutable{
+	--border-top:1px solid #EBE4D6;
+    width: 100%;
+    height: 50%;
+    --size: auto;
+    background: url(../images/menuPrinNuevo.png) no-repeat;
+    --background-size: cover;
+    background-position: center;
+    padding-bottom: 66.666666666667%; /* 960px/1440px */
+    margin: 10px auto;
+	word-wrap: break-word;
+}
+
+.menucoltable{
+	--border-top:1px solid #EBE4D6;
+    width: 100% ;
+
+}
+
+.menucol2table{
+	--border-top:1px solid #EBE4D6;
+    width: 25% ;
+
+}
+.menudiv2table{
+    width: auto !important;
+    text-align: right;
+    font-size: 18px;
+	font-family: 'Patua One', cursive;
+    margin: 0 auto;
+	word-wrap: break-word;
+	
+
+}
+.menudiv2table a{
+
+    color:#FFFFFF ;
+    font-size: 23px;
+}
+.menudiv2table a:hover{
+
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.menu{
+	--border-top:1px solid #EBE4D6;
+    background-size: cover;
+    background-position: center;
+ }
+
+ 
+.footer-bottom{
+	--padding-top:2%;
+	text-align:center;
+}
+
+/* Footer */
+footer{
+	padding:20px 0 20px 0;
+	--border-top:1px solid #eee;
+	background: rgb(169, 10, 22);
+}
+	
+.copy p{
+	color:#fff;
+	font-size:13px;
+}
+.copy p a{
+	color:#fff;
+}
+.copy p a:hover{
+	text-decoration:underline;
+}
+
+.top-nav li {
+	color: #FBFAFA;
+	border: none;
+	float: left;
+	width: 25%;
+	line-height: 10px;
+	word-wrap: break-word;
+}
+.menu li.active a {
+	color: #ff0000;
+	font-size: 25px;
+}
+.top-nav li:last-child{
+	border-right:none;
+}
+.top-nav li a:hover {
+	color: #ff0000;
+	font-size: 25px;
+}
+.top-nav li a {
+	display: block;
+	color: #000;
+	padding: 20px 0 20px;
+	height: auto !important;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Patua One', cursive;
+}
+
+.fecha{
+	display: block;
+	color: #fff;
+	text-align: right;
+	font-size: 12.8px;
+	font-family: 'Patua One', cursive;
+	word-wrap: break-word;
+}
+
+.contenedor{
+	width: 80%; 
+	height: 100%; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 
+	border-radius: 10px; 
+	-khtml-border-radius: 10px; 
+	background-color: #ddd; 
+	margin: 0 auto; 
+	text-align: center; 
+	padding: 20px; 
+	margin-top: 10px;
+ }
+ 
+.alinizquierda{
+	display: block;
+	color: #000;
+	text-align: left;
+	font:bold 12px 'Patua One', cursive;
+	word-wrap: break-word;
+	background: #F2F2F2;
+}
+
+.box {
+	overflow: hidden;
+	padding: 10px 100px;
+	word-wrap: break-word;
+}
+
+.content {
+	font-size: 15px;
+	line-height: 20px;
+	padding: 0 20px;
+	text-align: justify;
+	word-wrap: break-word;
+}
+
+.left {
+	float: left;
+	width: 33%;
+	word-wrap: break-word;
+	font-family: 'Patua One', cursive;
+}
+
+.left .content {
+	border-right: 3px solid;
+	border-color: #585858;
+}
+
+.leftcenter {
+	float: left;
+	width: 33%;
+	word-wrap: break-word;
+	font-family: 'Patua One', cursive;
+}
+
+
+.leftcenterd {
+	float: left;
+	width: 33%;
+	word-wrap: break-word;
+	font-family: 'Patua One', cursive;
+}
+
+.leftcenterd .content {
+	border-left: 3px solid;
+	border-color: #585858;
+}
+
+.right {
+	float: right;
+	width: 33%;
+	word-wrap: break-word;
+	font-family: 'Patua One', cursive;	
+}	
+.content p{
+  color: rgb(169, 10, 22);
+  font:bold 15px 'Patua One', cursive;
+}
+
+.content a{
+  color: #000;
+  font:bold 12px 'Patua One', cursive;
+  text-decoration:none;  
+}
+
+.busqueda {
+	float: right;
+	word-wrap: break-word;
+	font-family: 'Patua One', cursive;	
+}
+
+/*--menu Auxiliar--*/
+.menuAux{
+	 background: url(../images/menuAltNuevo.png) no-repeat;
+     width :60%;
+     margin-left: 20%;
+     margin-right: 80%;
+     background-size: cover;
+     background-position: center;
+     height:100%;
+	 margin-top: 10px;
+}
+
+.topAux-nav li {
+	color: #FBFAFA;
+	border: none;
+	float: left;
+	width: 33.333%;
+	line-height: 10px;
+    padding-top: 10px;
+}
+.topAux-nav li:last-child{
+	border-right:none;
+}
+.topAux-nav li.active a {
+	color: #190707;
+}
+.topAux-nav li a {
+	display: block;
+	color: #fff;
+	padding: 5px 0 10px;
+	height: auto !important;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Patua One', cursive;
+}
+.topAux-nav li a:hover {
+	color: #190707;
+	font-size: 16px;
+}
+
+
+.menupollo{
+	float: left;
+	width: 300px;
+	word-wrap: break-word;
+	font-family: 'Patua One', cursive;
+	background: url(../images/pruebaMenu.png) no-repeat;
+	height: 260px;
+}
+.menupollo .content {
+	border-right: 3px solid;
+	border-color: #585858;
+}
+
+.boxmenu {
+	overflow: hidden;
+		padding: 10px 10px 10px 10px;
+	word-wrap: break-word;
+}
+
+.fondomenu{
+	background: url(../images/PruebaFondo.png) no-repeat;
+	height: 100%; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 
+	border-radius: 10px; 
+	-khtml-border-radius: 10px; 
+	--background-color: #ddd; 
+	margin: 0 auto; 
+	text-align: center; 
+	--padding: 20px; 
+	margin-top: 10px;
+	width: 80%;
+ }
+ 
+ .boxvmenu {
+	overflow: hidden;
+	padding: 10px 10px 10px 50px;
+	word-wrap: break-word;
+	--width: 300px;
+	--height: 300px;
+	float: center;
+}
+ .menupolloint{
+	float: left;
+	width: 40%;
+	background: url(../images/pruebaMenupeques.png) no-repeat;
+	background-position: center;
+	padding: 10px 10px 10px 10px;
+	height: 100px;
+}
+
+ .menupolloder{
+	float: left;
+	width: 40%;
+	background: url(../images/pruebaMenupeques.png) no-repeat;
+	background-position: center;
+		padding: 10px 10px 10px 10px;
+	height: 100px;
+}

@@ -1,0 +1,192 @@
+/*
+Free Html5 Responsive Templates
+Author: Kimmy Tran
+Author URI: http://www.zerotheme.com/
+*/
+html {
+   -webkit-text-size-adjust: none;
+}
+.video embed,
+.video object,
+.video iframe {
+   width: 100%;
+   height: auto;
+}
+img{
+	max-width:100%;
+	height: auto;
+   	width: auto\9; /* ie8 */
+}
+
+#res-slider{
+	display: none;
+}
+
+@media only screen and (max-width: 979px) {
+	.container {
+		width: 100%;
+	}
+	header{
+		height: auto;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	header nav{
+		float: none;
+		clear: both;
+		padding-top: 90px;
+	}
+	header nav ul li a.current, header nav ul li a:hover {
+		padding-bottom: 0px;
+	}
+	#gallery{
+		display: none;
+	}
+	#res-slider{
+		display: block;
+		margin-top: 10px;
+	}
+	.col-custom{
+		float: right;
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 820px){
+	.col-custom{
+		float: right;
+		width: 75%;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.col-custom{
+		float: right;
+		width: 100%;
+		display: inline-block;
+	}
+	footer .fright{
+		float: left;
+		padding: 0 0 0 40px;
+	}
+	.menutable{
+		width:  100%;
+		height: 100%;
+		--size: auto;
+		background: url(../images/menuPrinNuevor.png) no-repeat;
+		--background-size: 100%;
+		background-position: center;
+		padding-bottom: 66.666666666667%; /* 960px/1440px */
+		--margin: 0 auto;
+	}
+	.top-nav li {
+	color: #FBFAFA;
+	border: none;
+	float: left;
+	width: 25%;
+	line-height: 10px;
+	word-wrap: break-word;
+     --height: 15px;
+	}
+
+	.top-nav li:last-child{
+		border-right:none;
+	}
+	.top-nav li a:hover {
+		color: #ff0000;
+		font-size: 13px;
+	}
+	.top-nav li a {
+		display: block;
+		color: #000;
+		padding: 15px 0 15px;
+		height: auto !important;
+		text-align: center;
+		font-size: 11px;
+		font-family: 'Patua One', cursive;
+	}
+	
+	.menudiv2table{
+    width: auto !important;
+    text-align: center;
+    font-size: 12px;
+	font-family: 'Patua One', cursive;
+    margin: 0 auto;
+	word-wrap: break-word;
+	}
+	.menudiv2table a{
+
+		color:#FFFFFF ;
+		font-size: 12px;
+	}
+	.menudiv2table a:hover{
+
+		color: #FFFFFF;
+		font-size: 15px;
+	}
+	.fecha{
+		font-size: 9.8px;
+	}
+	.search-bar input[type="text"] {
+		width: 90px;
+		height:8px;
+	}
+	.textbox{
+		font-size: 10px;
+	}
+	.contenedor {
+		display: none;
+	}
+	.copy p{
+		font-size:10px;
+	}
+	.topAux-nav li a:hover {
+		font-size: 12px;
+	}
+	.topAux-nav li a {
+		font-size: 10px;
+	}
+	.menuAux{
+		 width :92%;
+		 margin-left: 6%;
+		 margin-right: 94%;
+		 background: url(../images/) no-repeat;
+		 background-size: cover;
+	}
+	.menupollo{
+		width: 126px;
+		word-wrap: break-word;
+		font-family: 'Patua One', cursive;
+		background: url(../images/pruebaMenu.png) no-repeat;
+		height: 180px;
+	}
+
+	 .menupolloint{
+		float: left;
+		width: 40%;
+		background: url(../images/pruebaMenupeques.png) no-repeat;
+		background-position: center;
+		padding: 5px 5px 5px 5px;
+		height: 75px;
+	}
+
+	 .menupolloder{
+		float: left;
+		width: 40%;
+		background: url(../images/pruebaMenupeques.png) no-repeat;
+		background-position: center;
+		padding: 5px 5px 5px 5px;
+		height: 75px;
+	}
+	
+	.boxvmenu {
+			--width: 100%;
+			--height: 20%;
+			float: center;
+			padding: 5px 5px 5px 5px;
+		}
+	.boxmenu {
+		padding: 5px 5px 5px 5px;
+	}
+	.menu li.active a {
+		font-size: 12px;
+	}
+}
