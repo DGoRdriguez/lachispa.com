@@ -189,4 +189,55 @@ img{
 	.menu li.active a {
 		font-size: 12px;
 	}
+	.chispakd{
+		height: 340px;
+	}
+	.chispakd p{
+	  font:bold 12px 'Patua One', cursive;
+	}
+
+	.chispaki{
+		height: 310px;
+	}
+	.chispaki p{
+	  font:bold 12px 'Patua One', cursive;
+	}
+
+	.chispaki a{
+	  font:bold 10px 'Patua One', cursive;
+	}
+
+	.contact_form li {
+		padding: 5px;
+	}
+	body {
+		font: 7px/9px 'Patua One', cursive;
+	}
+	.required_notification {
+		margin: 2px 0 0 0;
+		font: 9px 'Patua One', cursive;
+		padding-right: 13px;
+	}
+	.contact_form label {
+		margin-top: 2px;
+	}
+
+	.contact_form input {
+		height: 15px;
+		width: 50%;
+		--padding: 5px 8px;
+	}
+	/* form element visual styles */
+	.contact_form input, .contact_form textarea {
+		padding-right: 2px;
+	}
+	/* === Button Style === */
+	button.submit {
+		margin-top: 10px;
+		padding: 3px 10px;
+	}
+	.form_hint, .required_notification {
+		font-size: 10px;
+	}
+
 }
