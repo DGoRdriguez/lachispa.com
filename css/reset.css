@@ -485,6 +485,9 @@ footer{
     padding-bottom: 10px;
     background-size: cover;
     size: auto;
+	
+	left: 30px; 
+	top: 50px;	
    }
 
  .boxvmenu {
@@ -951,3 +954,28 @@ button.submit:active {
        text-align: left;
    /* --padding: 5px 8px;   */
 }
+
+.superpuesto{
+	background: url(../images/FondoPagMenu.png) no-repeat;
+	height: 350px ;
+    background-position: cneter;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-khtml-border-radius: 10px;
+	--background-color: #ddd;
+    margin-left: 8%;
+    --margin-right: 10%;
+	text-align: center;
+	--padding: 20px;
+	margin-top: 0px;
+	width: 80% ;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-size: cover;
+    size: auto;
+	position: absolute; 
+	right: 30px; 
+	bottom: 50px;
+   }
