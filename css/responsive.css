@@ -67,7 +67,7 @@ img{
 		float: left;
 		padding: 0 0 0 40px;
 	}
-	.menutable{
+/*	.menutable{
 		width:  100%;
 		height: 100%;
 		--size: auto;
@@ -75,8 +75,8 @@ img{
 		--background-size: 100%;
 		background-position: center;
 		padding-bottom: 66.666666666667%; /* 960px/1440px */
-		--margin: 0 auto;
-	}
+   /*		--margin: 0 auto;
+	} */
 	.top-nav li {
 	color: #FBFAFA;
 	border: none;
@@ -144,7 +144,7 @@ img{
 	.topAux-nav li a {
 		font-size: 10px;
 	}
-	.menuAux{
+   .menuAux{
 		 width :92%;
 		 margin-left: 6%;
 		 margin-right: 94%;
@@ -176,7 +176,7 @@ img{
 		padding: 5px 5px 5px 5px;
 		height: 75px;
 	}
-	
+	    
 	.boxvmenu {
 			--width: 100%;
 			--height: 20%;
