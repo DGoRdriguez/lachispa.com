@@ -57,6 +57,16 @@
 						
 			});
 	</script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#botonpruebafade').click(function(evento){
+			
+				$('#detalle').fadeIn(2000);
+				
+			});
+		});
+	</script>
 
 </head>
 
@@ -136,7 +146,25 @@
 				</div>
 				<div class="boxvmenu"> 
 					<div class="menupolloint"> 
-					
+						<a href="#" onclick="javascript:$('#botonocultamuestra').click(function () {
+								  $('#divocultamuestra').each(function() {
+									displaying = $(this).css('display');
+									if(displaying == 'block') {
+									  $(this).fadeOut('slow',function() {
+									   $(this).css('display','none');
+									  });
+									} else {
+									  $(this).fadeIn('slow',function() {
+										$(this).css('display','block');
+									  });
+									}
+								  });
+								});
+							  });">
+						<a href="#" onclick="javascript:
+							$(document).ready(function() {
+									$('#detalle').fadeIn(2000);
+							});">
 					</div>
 					<div class="menupolloder"> 
 					
@@ -150,7 +178,56 @@
 				</div>
 			</div>
 		</div>
-		
+			
+		<div id="detalle" class="slider">
+			<ul class="frames">
+				<li id="one" class="slide">
+					<img src="http://lorempixel.com/450/250/animals" alt="Slide 1">
+					<nav>
+						<a class="prev" href="#five">&larr;</a>
+						<a class="next" href="#two">&rarr;</a>
+					</nav>            
+				</li>
+				<li id="two" class="slide">
+					<img src="http://lorempixel.com/450/250/sports" alt="Slide 2">
+					<nav>
+						<a class="prev" href="#one">&larr;</a>
+						<a class="next" href="#three">&rarr;</a>
+					</nav>            
+				</li>
+				<li id="three" class="slide">
+					<img src="http://lorempixel.com/450/250/nature" alt="Slide 3">
+					<nav>
+						<a class="prev" href="#two">&larr;</a>
+						<a class="next" href="#four">&rarr;</a>
+					</nav>            
+				</li>
+				<li id="four" class="slide">
+					<img src="http://www.lorempixel.com/450/250/food" alt="Slide 4">
+					<nav>
+						<a class="prev" href="#three">&larr;</a>
+						<a class="next" href="#five">&rarr;</a>
+					</nav>            
+				</li>
+				<li id="five" class="slide">
+					<img src="http://lorempixel.com/450/250/animals" alt="Slide 5">
+					<nav>
+						<a class="prev" href="#four">&larr;</a>
+						<a class="next" href="#one">&rarr;</a>
+					</nav>            
+				</li>
+				<li class="quicknav">
+					<ul>
+						<li><a href="#one"></a></li>
+						<li><a href="#two"></a></li>
+						<li><a href="#three"></a></li>
+						<li><a href="#four"></a></li>
+						<li><a href="#five"></a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+				
 		<!-- Menu Inferior -->
 		<div class="menuAux">
 			<div class="topAux-nav">
