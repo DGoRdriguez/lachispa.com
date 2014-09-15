@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/responsiveslides.css" />
     <link rel="stylesheet" href="css/modalpopup.css" />
+	
 	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 	<script type="text/javascript" src="js/cufon-yui.js"></script>
 	<script type="text/javascript" src="js/Humanst521_BT_400.font.js"></script>
@@ -34,8 +35,7 @@
     <script type="text/javascript" src="js/IE9.js"></script>
   <![endif]-->
   
-  
-  <script src="js/responsiveslides.js"></script>
+ 
 	<script>
 		$(function () {
 		  $("#slider").responsiveSlides({
@@ -72,12 +72,11 @@
 
 <body>
 
-<!-- Body-->
-
+	<!-- Body-->
 <div class="wrap">
 
 		<!-- Header-->		
-		<div class="total">
+	<div class="total">
 		<div class="header">
 			<div class="header-bot">
 					<div class="logo">
@@ -109,7 +108,7 @@
 		</div>
 	</div>	
 		<!-- Menú Horizontal-->
-	   	<table  class="menutable">
+	<table  class="menutable">
 
 				<tr>
 					<td class="menucol1table">
@@ -136,121 +135,104 @@
 				  </td>
 				</tr>
 			</table>
-
 		
-		<div class="fondomenu">
-          	<div class="boxmenu">
-
-				<div class="menupollo">
-
-				</div>
-<<<<<<< HEAD
-				<div class="boxvmenu"> 
-					<div class="menupolloint"> 
-						<a href="#" onclick="javascript:$('#botonocultamuestra').click(function () {
-								  $('#divocultamuestra').each(function() {
-									displaying = $(this).css('display');
-									if(displaying == 'block') {
-									  $(this).fadeOut('slow',function() {
-									   $(this).css('display','none');
-									  });
-									} else {
-									  $(this).fadeIn('slow',function() {
-										$(this).css('display','block');
-									  });
-									}
-								  });
-								});
-							  });">
-						<a href="#" onclick="javascript:
-							$(document).ready(function() {
-									$('#detalle').fadeIn(2000);
-							});">
-=======
-				<div class="boxvmenu">
-					<div class="menupolloint">
-
->>>>>>> origin/master
-					</div>
-					<div class="menupolloder">
-
-					</div>
-					<div class="menupolloint1">
-
-					</div>
-					<div class="menupolloder2">
-
-					</div>
-				</div>
+		<!-- Menu General-->
+	<div class="fondomenu">
+		<div class="boxmenu">
+			<div class="menupollo">	
+				<a href="#one" onclick="javascript:
+					$(document).ready(function(){
+							$('#detalle').fadeIn(2000);
+					});"></a>
+			</div>
+			<div class="boxvmenu"> 
+			<div class="menupolloint"> 
+				<a href="#two" onclick="javascript:
+					$(document).ready(function(){
+							$('#detalle').fadeIn(2000);
+					});"></a>
+			</div>
+			<div class="menupolloder">
+				<a href="#three" onclick="javascript:
+					$(document).ready(function(){
+							$('#detalle').fadeIn(2000);
+					});"></a>
+			</div>
+			<div class="menupolloint1">
+				<a href="#four" onclick="javascript:
+					$(document).ready(function(){
+							$('#detalle').fadeIn(2000);
+					});"></a>
+			</div>
+			<div class="menupolloder2">
+				<a href="#five" onclick="javascript:
+					$(document).ready(function(){
+							$('#detalle').fadeIn(2000);
+					});"></a>
 			</div>
 		</div>
-<<<<<<< HEAD
-			
-		<div id="detalle" class="slider">
-			<ul class="frames">
-				<li id="one" class="slide">
-					<img src="http://lorempixel.com/450/250/animals" alt="Slide 1">
-					<nav>
-						<a class="prev" href="#five">&larr;</a>
-						<a class="next" href="#two">&rarr;</a>
-					</nav>            
-				</li>
-				<li id="two" class="slide">
-					<img src="http://lorempixel.com/450/250/sports" alt="Slide 2">
-					<nav>
-						<a class="prev" href="#one">&larr;</a>
-						<a class="next" href="#three">&rarr;</a>
-					</nav>            
-				</li>
-				<li id="three" class="slide">
-					<img src="http://lorempixel.com/450/250/nature" alt="Slide 3">
-					<nav>
-						<a class="prev" href="#two">&larr;</a>
-						<a class="next" href="#four">&rarr;</a>
-					</nav>            
-				</li>
-				<li id="four" class="slide">
-					<img src="http://www.lorempixel.com/450/250/food" alt="Slide 4">
-					<nav>
-						<a class="prev" href="#three">&larr;</a>
-						<a class="next" href="#five">&rarr;</a>
-					</nav>            
-				</li>
-				<li id="five" class="slide">
-					<img src="http://lorempixel.com/450/250/animals" alt="Slide 5">
-					<nav>
-						<a class="prev" href="#four">&larr;</a>
-						<a class="next" href="#one">&rarr;</a>
-					</nav>            
-				</li>
-				<li class="quicknav">
-					<ul>
-						<li><a href="#one"></a></li>
-						<li><a href="#two"></a></li>
-						<li><a href="#three"></a></li>
-						<li><a href="#four"></a></li>
-						<li><a href="#five"></a></li>
-					</ul>
-				</li>
-			</ul>
 		</div>
-				
-=======
-
->>>>>>> origin/master
-		<!-- Menu Inferior -->
-		<div class="menuAux">
-			<div class="topAux-nav">
-					<ul>
-						<li><a href="index.html">Quienes Somos</a></li>
-						<li><a href="#">Trabaja con Nosotros</a></li>
-						<li><a href="#">Ley de datos</a></li>
-					</ul>
-					<div class="clear"></div>
-			</div>
+	</div>
+	<!-- Slider Sobrepuesto -->		
+	<div id="detalle" class="slider">
+		<div class="cerrar">
+		<a href="#" onclick="javascript:
+					  $('#detalle').each(function() {
+						displaying = $(this).css('display');
+						if(displaying == 'block') {
+						  $(this).fadeOut('slow',function() {
+						   $(this).css('display','none');
+						  });
+						} else {
+						  $(this).fadeIn('slow',function() {
+							$(this).css('display','block');
+						  });
+						}
+					  });
+					"></a>
 		</div>
-		<!-- Menu Footer -->
-		<div class	="contenedor">
+		<div >
+		<ul class="frames">
+			<li id="one" class="slide">
+				<img src="http://lorempixel.com/450/250/animals" alt="Slide 1">  
+			</li>
+			<li id="two" class="slide">
+				<img src="http://lorempixel.com/450/250/sports" alt="Slide 2">
+			</li>
+			<li id="three" class="slide">
+				<img src="http://lorempixel.com/450/250/nature" alt="Slide 3">
+			</li>
+			<li id="four" class="slide">
+				<img src="http://www.lorempixel.com/450/250/food" alt="Slide 4">
+			</li>
+			<li id="five" class="slide">
+				<img src="http://www.lorempixel.com/450/250/food" alt="Slide 4">
+			</li>
+			<li class="quicknav">
+				<ul>
+					<li><a href="#one"></a></li>
+					<li><a href="#two"></a></li>
+					<li><a href="#three"></a></li>
+					<li><a href="#four"></a></li>
+					<li><a href="#five"></a></li>
+				</ul>
+			</li>
+		</ul>
+	 </div>
+	</div>
+	<!-- Menu Inferior -->
+	<div class="menuAux">
+		<div class="topAux-nav">
+				<ul>
+					<li><a href="index.html">Quienes Somos</a></li>
+					<li><a href="#">Trabaja con Nosotros</a></li>
+					<li><a href="#">Ley de datos</a></li>
+				</ul>
+				<div class="clear"></div>
+		</div>
+	</div>
+	<!-- Menu Footer -->
+	<div class	="contenedor">
 			<div class="alinizquierda">
 				LACHISPAROJA.COM
 			</div>
@@ -292,11 +274,10 @@
 			</div>
 		</div>
 		
-</div>
 
 
-  <!-- footer -->
-<footer>
+	<!-- footer -->
+ <footer>
 	<div class="footer-bottom">
 		<div class="wrap">
 			<div class="copy">
@@ -310,5 +291,6 @@
 </footer>
 
 <script type="text/javascript"> Cufon.now(); </script>
+  
 </body>
 </html>
