@@ -461,6 +461,10 @@ footer{
 	border-color: #585858;
 }
 
+.menupollo a{
+	padding: 0px 0px 290px 330px;
+}
+
 .boxmenu {
 	overflow: hidden;
 	padding: 10px 10px 10px 20px;
@@ -486,17 +490,13 @@ footer{
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 10px;
-<<<<<<< HEAD
     background-size: 100%;
     --size: auto;
-    position: absolute;
-=======
+    --position: absolute;
     background-size: cover;
     size: auto;
-	
 	left: 30px; 
 	top: 50px;	
->>>>>>> origin/master
    }
 
 
@@ -507,7 +507,7 @@ footer{
 	width: 330px ;
 	height: 350px ;
 	float: center;
-    position: absolute;
+    position: relative;
 }
  .menupolloint{
 	float: left;
@@ -518,7 +518,9 @@ footer{
 	height: 150px ;
     --border-radius: 10px;
     background-size: 100%;
-
+}
+.menupolloint a{
+	padding: 0px 150px 131px 150px;
 }
 
  .menupolloder{
@@ -532,6 +534,12 @@ footer{
     background-size: 100%;
 
 }
+
+
+.menupolloder a{
+	padding: 0px 150px 131px 150px;
+}
+
  .menupolloint1{
 	float: left;
 	width: 150px;
@@ -544,6 +552,9 @@ footer{
 
 }
 
+.menupolloint1 a{
+	padding: 0px 150px 131px 150px;
+}
  .menupolloder2{
 	float: left;
 	width: 150px;
@@ -556,6 +567,9 @@ footer{
 
 }
 
+.menupolloder2 a{
+	padding: 0px 150px 131px 150px;
+}
 /*Donde Estamos*/
 .DivDondeEstamos{
 	background:  url(../images/FondoPagMenu.png) no-repeat;
@@ -991,7 +1005,7 @@ button.submit:active {
 	right: 30px; 
 	bottom: 50px;
    }
-<<<<<<< HEAD
+
    
 /* Slider */
 .slider {
@@ -1002,10 +1016,10 @@ button.submit:active {
     top: 50%;
     width: 450px;
 	display: none;
-    /*box-shadow*/
+    /*box-shadow
     -webkit-box-shadow: 0 0 5px #000;
     -moz-box-shadow: 0 0 5px #000;
-    box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000;*/
 }
 .slider .frames {
     height: 250px;
@@ -1102,5 +1116,17 @@ button.submit:active {
     -moz-box-shadow: inset 0 0 3px #000,0 0 2px rgba(0,0,0,.5),0 2px 3px #666;
     box-shadow: inset 0 0 3px #000,0 0 2px rgba(0,0,0,.5),0 2px 3px #666;
 }
-=======
->>>>>>> origin/master
+.cerrar{
+	background: url(../images/X.png) no-repeat;
+	width: 450px;
+	height: 20px ;
+	background-position:right;
+}
+.cerrar a{
+	padding: 0px 20px 20px 0px;
+	float:right;
+}
+.cerrar p{
+	padding: 0px 20px 0px 0px;
+	float:right;
+}
