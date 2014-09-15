@@ -451,7 +451,7 @@ footer{
 	height: 310px ;
     --border-radius: 10px;
     background-size: 100%;
-    --size: 100%;
+    size: 100%;
     --width: 100%;
     --height: 100%;
     --float: left;
@@ -465,13 +465,13 @@ footer{
 	overflow: hidden;
 	padding: 10px 10px 10px 20px;
 	word-wrap: break-word;
-    --size: 100%;
+    size: 100%;
 }
 
 .fondomenu{
-	background: url(../images/FondoPagMenu.png) no-repeat;
-	height: 350px  ;
-    background-position: cneter;
+   	background:  url(../images/FondoPagMenu.png) no-repeat;
+    height: 330px ;
+    --background-position: center;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
@@ -482,21 +482,11 @@ footer{
 	text-align: center;
 	--padding: 20px;
 	margin-top: 0px;
-	width: 80%  ;
+	width: 80% ;
     padding-left: 30px;
     padding-top: 20px;
-    padding-bottom: 10px;
-<<<<<<< HEAD
+    padding-bottom: 5px;
     background-size: 100%;
-    --size: auto;
-    position: absolute;
-=======
-    background-size: cover;
-    size: auto;
-	
-	left: 30px; 
-	top: 50px;	
->>>>>>> origin/master
    }
 
 
@@ -558,9 +548,9 @@ footer{
 
 /*Donde Estamos*/
 .DivDondeEstamos{
-	background:  url(../images/FondoPagMenu.png) no-repeat;
-    height: 340px ;
-    background-position: center;
+   	background:  url(../images/FondoPagMenu.png) no-repeat;
+    height: 330px ;
+    --background-position: center;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
@@ -574,7 +564,7 @@ footer{
 	width: 80% ;
     padding-left: 30px;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     background-size: 100%;
      }
 .Lista {
@@ -618,7 +608,7 @@ footer{
      margin-left: 10px;
      margin-right: 20px;
 	float: right;
-	width: 80% ;
+	width: 75% ;
 	word-wrap: break-word;
 	font-family: 'Patua One', cursive;
 	height: 310px;
@@ -645,10 +635,10 @@ footer{
  }
 .chispakd{
 	float: left;
-	width: 45%;
+	width: 35%;
 	word-wrap: break-word;
 	font-family: 'Patua One', cursive;
-	height: 450px;
+	height: 350px;
 }
 .chispakd p{
   color: #000;
@@ -658,10 +648,10 @@ footer{
 
 .chispaki{
 	float: right;
-	width: 55%;
+	width: 60%;
 	word-wrap: break-word;
 	font-family: 'Patua One', cursive;
-	height: 450px;
+	height: 350px;
     --margin-right: 10px;
 }
 .chispaki p{
@@ -685,25 +675,27 @@ footer{
 	word-wrap: break-word;
 	font-family: 'Patua One', cursive;
 	margin-top: 5px;
-    margin-left: 10px;
+    --margin-left: 80px;
     padding-top: 10px;
+    padding-left:10px;
+    padding-right: 10px;
 	background: url(../images/mnInfantil.png) no-repeat;
     background-size: 100%
 	background-position: left;
-	--width: 90%;
+	width: 90%;
 }
 .oferchispak p{
      font-size: 11px;
 }
 .combochispak{
 	float: right;
-	height: 40%;
+	height: 50%;
 	word-wrap: break-word;
 	font-family: 'Patua One', cursive;
 	background: url(../images/CajaInfantil.png) no-repeat;
     background-size: 100% ;
 	background-position:center;
-	width: 30%;
+	width: 40%;
 
 }
 
@@ -742,6 +734,7 @@ body {
 }
 
 /* === List Styles === */
+
 .contact_form ul {
     width: 90%;
     list-style-type: none;
@@ -751,9 +744,10 @@ body {
 }
 
 .contact_form li {
-    padding-top: 10px;
+    padding-top: 8px;
     --border-bottom: 1px solid #eee;
-    position: relative;
+    --position: relative;
+
 
 }
 
@@ -782,7 +776,7 @@ body {
 }
 
 .contact_form input {
-    height: 20px;
+    height: 15px;
     width: 50%;
    /* --padding: 5px 8px;   */
 }
@@ -933,7 +927,7 @@ button.submit:active {
 }
 .formAlignDere{
 	float: left;
-	width: 55%;
+	width: 50%;
 	word-wrap: break-word;
 	font-family: 'Patua One', cursive;
 	height: 300px;
@@ -945,7 +939,7 @@ button.submit:active {
 	word-wrap: break-word;
 	font-family: 'Patua One', cursive;
 	--height: 300px;
-    --margin-right: 10px;
+    margin-right: 10px;
 }
 .formComentarios textarea {
     height: 100px;
