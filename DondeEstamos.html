@@ -144,17 +144,61 @@
         <div class="Mapa">
         <img  src="images/MpDondeEstamos.png" usemap="#mimapa" id="map" width="500" height="226" />
         <map name="mimapa" id="mimapa">
-        <area shape="circle" coords="31,40,15" href="#" alt="" title="Parque Infnatil "" />
-        <area shape="circle" coords="55,31,15" href="#" alt="" title="Calle 159" />
-        <area shape="circle" coords="80,9,15" href="#" alt="" title="San Cristobal" />
-         <area shape="circle" coords="112,108,15" href="#" alt="" title="Alamos" />
-         <area shape="circle" coords="143,80,15" href="#" alt="" title="Villa Luz" />
-         <area shape="circle" coords="162,62,15" href="#" alt="" title="Estrada" />
-         <area shape="circle" coords="196,24,15" href="#" alt="" title="Calle 73" />
-         <area shape="circle" coords="263,83,15" href="#" alt="" title="Tejar" />
-         <area shape="circle" coords="281,116,15" href="#" alt="" title="Olarte" />
-         <area shape="circle" coords="378,67,15" href="#" alt="" title="San Blas" />
-         <area shape="circle" coords="408,48,15" href="#" alt="" title="La Victoria" />
+        <area shape="circle" coords="31,40,15"
+        href="#one" onclick="javascript:
+					$(document).ready(function(){
+							$('#detalle').fadeIn(2000);
+					});" alt="" title="Parque Infantil "" />
+        <area shape="circle" coords="55,31,15"
+        href="#two" onclick="javascript:
+					$(document).ready(function(){
+							$('#detalle').fadeIn(2000);
+					});" alt="" title="Calle 159" />
+        <area shape="circle" coords="80,9,15"
+        href="#three" onclick="javascript:
+					$(document).ready(function(){
+							$('#detalle').fadeIn(2000);
+					});" alt="" title="San Cristobal" />
+         <area shape="circle" coords="112,108,15"
+         href="#four" onclick="javascript:
+					$(document).ready(function(){
+							$('#detalle').fadeIn(2000);
+					});" alt="" title="Alamos" />
+         <area shape="circle" coords="143,80,15"
+         href="#five" onclick="javascript:
+					$(document).ready(function(){
+							$('#detalle').fadeIn(2000);
+					});" alt="" title="Villa Luz" />
+         <area shape="circle" coords="162,62,15"
+         href="#six" onclick="javascript:
+					$(document).ready(function(){
+							$('#detalle').fadeIn(2000);
+					});" alt="" title="Estrada" />
+         <area shape="circle" coords="196,24,15"
+         href="#seven" onclick="javascript:
+					$(document).ready(function(){
+							$('#detalle').fadeIn(2000);
+					});" alt="" title="Calle 73" />
+         <area shape="circle" coords="263,83,15"
+         href="#eight" onclick="javascript:
+					$(document).ready(function(){
+							$('#detalle').fadeIn(2000);
+					});" alt="" title="Tejar" />
+         <area shape="circle" coords="281,116,15"
+         href="#nine" onclick="javascript:
+					$(document).ready(function(){
+							$('#detalle').fadeIn(2000);
+					});" alt="" title="Olarte" />
+         <area shape="circle" coords="378,67,15"
+         href="#ten" onclick="javascript:
+					$(document).ready(function(){
+							$('#detalle').fadeIn(2000);
+					});" alt="" title="San Blas" />
+         <area shape="circle" coords="408,48,15"
+         href="#eleven" onclick="javascript:
+					$(document).ready(function(){
+							$('#detalle').fadeIn(2000);
+					});" alt="" title="La Victoria" />
      </map>
        </div>
         <div class="Lista">
@@ -168,6 +212,81 @@
 
 		</div-->
 		</div>
+
+       	<!-- Slider Sobrepuesto -->
+   	<div id="detalle" class="slider">
+		<div class="cerrar">
+		<a href="#" onclick="javascript:
+					  $('#detalle').each(function() {
+						displaying = $(this).css('display');
+						if(displaying == 'block') {
+						  $(this).fadeOut('slow',function() {
+						   $(this).css('display','none');
+						  });
+						} else {
+						  $(this).fadeIn('slow',function() {
+							$(this).css('display','block');
+						  });
+						}
+					  });
+					"></a>
+		</div>
+		<div >
+		<ul class="frames">
+			<li id="one" class="slide">
+				<img src="images/1VillaPrado.png" alt="Slide 1">
+			</li>
+			<li id="two" class="slide">
+				<img src="images/1VillaPrado.png" alt="Slide 2">
+			</li>
+			<li id="three" class="slide">
+				<img src="images/1VillaPrado.png" alt="Slide 3">
+			</li>
+			<li id="four" class="slide">
+				<img src="images/1VillaPrado.png" alt="Slide 4">
+			</li>
+			<li id="five" class="slide">
+				<img src="images/1VillaPrado.png" alt="Slide 5">
+			</li>
+            	<li id="six" class="slide">
+				<img src="images/1VillaPrado.png" alt="Slide 6">
+			</li>
+			<li id="seven" class="slide">
+				<img src="images/1VillaPrado.png" alt="Slide 7">
+			</li>
+			<li id="eight" class="slide">
+				<img src="images/1VillaPrado.png" alt="Slide 8">
+			</li>
+			<li id="nine" class="slide">
+				<img src="images/1VillaPrado.png" alt="Slide 9">
+			</li>
+			<li id="ten" class="slide">
+				<img src="images/1VillaPrado.png" alt="Slide 10">
+			</li>
+            	<li id="eleven" class="slide">
+				<img src="images/1VillaPrado.png" alt="Slide 11">
+			</li>
+			<li class="quicknav">
+				<ul>
+					<li><a href="#one"></a></li>
+					<li><a href="#two"></a></li>
+					<li><a href="#three"></a></li>
+					<li><a href="#four"></a></li>
+					<li><a href="#five"></a></li>
+                    <li><a href="#six"></a></li>
+					<li><a href="#seven"></a></li>
+					<li><a href="#eight"></a></li>
+					<li><a href="#nine"></a></li>
+					<li><a href="#ten"></a></li>
+                    <li><a href="#eleven"></a></li>
+				</ul>
+			</li>
+		</ul>
+	 </div>
+	</div>
+
+
+
 
 		<!-- Menu Inferior -->
 		<div class="menuAux">
