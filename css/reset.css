@@ -444,14 +444,17 @@ footer{
 
 .menupollo{
 	float: left;
-	width: 320px ;
+	width: 330px ;
 	word-wrap: break-word;
 	font-family: 'Patua One', cursive;
 	background: url(../images/MenuPollo.png) no-repeat;
-	height: 300px ;
+	height: 310px ;
+    --border-radius: 10px;
     background-size: 100%;
     size: 100%;
-    margin-left: 30px;
+    --width: 100%;
+    --height: 100%;
+    --float: left;
 }
 .menupollo .content {
 	border-right: 3px solid;
@@ -485,7 +488,7 @@ footer{
 	margin-top: 0px;
 	width: 80% ;
     padding-left: 30px;
-    padding-top: 8px;
+    padding-top: 20px;
 <<<<<<< HEAD
     padding-bottom: 5px;
     background-size: 100%;
@@ -497,14 +500,14 @@ footer{
     background-size: cover;
     size: auto;
 	left: 30px; 
-	top: 30px;
+	top: 50px;	
 >>>>>>> origin/master
    }
 
 
  .boxvmenu {
 	overflow: hidden;
-	padding: 0px 0px 0px 10px;
+	padding: 0px 10px 0px 10px;
 	word-wrap: break-word;
 	width: 330px ;
 	height: 350px ;
@@ -513,14 +516,13 @@ footer{
 }
  .menupolloint{
 	float: left;
-	width: 130px ;
+	width: 150px ;
 	background: url(../images/MenuCarnes.png) no-repeat;
 	background-position: center;
-	padding: 10px 5px 0px 15px;
-	height: 130px ;
+	padding: 10px 5px 0px 5px;
+	height: 150px ;
     --border-radius: 10px;
     background-size: 100%;
-    margin-left: 10px;
 }
 .menupolloint a{
 	padding: 0px 150px 131px 150px;
@@ -528,14 +530,14 @@ footer{
 
  .menupolloder{
 	float: left;
-	width: 130px ;
+	width: 150px ;
 	background: url(../images/MenuEntradas.png) no-repeat;
 	background-position: center;
-	padding: 10px 5px 0px 15px;
-    height: 130px;
+	padding: 10px 5px 0px 10px;
+    height: 150px;
     --border-radius: 10px;
     background-size: 100%;
-    margin-left: 20px;
+
 }
 
 
@@ -545,15 +547,14 @@ footer{
 
  .menupolloint1{
 	float: left;
-	width: 130px;
+	width: 150px;
 	background: url(../images/MenuPescados.png) no-repeat;
 	background-position: center;
-	padding: 10px 5px 0px 15px;
-	height: 130px;
+	padding: 10px 5px 0px 5px;
+	height: 150px;
     --border-radius: 10px;
     background-size: 100%;
-    margin-left: 10px;
-    margin-top: 10px;
+
 }
 
 .menupolloint1 a{
@@ -561,15 +562,14 @@ footer{
 }
  .menupolloder2{
 	float: left;
-	width: 130px;
+	width: 150px;
 	background: url(../images/MenuSopas.png) no-repeat;
 	background-position: center;
-	padding: 10px 5px 0px 15px;
-    height: 130px;
+	padding: 10px 5px 0px 5px;
+    height: 150px;
     --border-radius: 10px;
     background-size: 100%;
-    margin-left: 20px;
-    margin-top: 10px;
+
 }
 
 .menupolloder2 a{
@@ -801,7 +801,7 @@ body {
     float: left;
     --padding-right: 3px;
 	text-align: right;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .contact_form input {
@@ -1017,14 +1017,13 @@ button.submit:active {
 
    
 /* Slider */
-
 .slider {
-    height:350px;
-    left: 37%;
+    height: 250px;
+    left: 50%;
     margin: 0px -225px;
     position: absolute;
-    top: 40%;
-    width: 700PX;
+    top: 50%;
+    width: 450px;
 	display: none;
     /*box-shadow
     -webkit-box-shadow: 0 0 5px #000;
@@ -1039,13 +1038,12 @@ button.submit:active {
     height: 250px;
     list-style: none;
     position: absolute;
-    width: 100%;
+    width: 450px;
 }
 .slider .slide:target { z-index: 100 }
 .slider .frames .slide img {
-    height: 100%;
-    width: 100%;
-
+    height: 250px;
+    width: 450px;
 }
 .slider .frames .slide nav a {
     background: hsla(0,0%,0%,.75);
@@ -1072,7 +1070,6 @@ button.submit:active {
     -moz-border-radius: 0 25px 25px 0;
     border-radius: 0 25px 25px 0;
     left: 0;
-
 }
 .slider .frames .slide nav .next {
     /*border-radius*/
@@ -1080,7 +1077,6 @@ button.submit:active {
     -moz-border-radius: 25px 0 0 25px;
     border-radius: 25px 0 0 25px;
     right: 0;
-
 }
 .slider .frames .slide nav a:hover { background: #000 }
 .slider .quicknav {
@@ -1131,7 +1127,7 @@ button.submit:active {
 }
 .cerrar{
 	background: url(../images/X.png) no-repeat;
-	width: 700px;
+	width: 450px;
 	height: 20px ;
 	background-position:right;
 }
