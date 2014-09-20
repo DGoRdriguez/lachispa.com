@@ -73,8 +73,9 @@
 <body>
 
 	<!-- Body-->
+	
 <div class="wrap">
-
+	
 		<!-- Header-->		
 	<div class="total">
 		<div class="header">
@@ -143,6 +144,7 @@
 				<a href="#one" onclick="javascript:
 					$(document).ready(function(){
 							$('#detalle').fadeIn(2000);
+							$('#pantalla').fadeIn(2000);					
 					});"></a>
 			</div>
 			<div class="boxvmenu"> 
@@ -150,76 +152,95 @@
 				<a href="#two" onclick="javascript:
 					$(document).ready(function(){
 							$('#detalle').fadeIn(2000);
+							$('#pantalla').fadeIn(2000);					
 					});"></a>
 			</div>
 			<div class="menupolloder">
 				<a href="#three" onclick="javascript:
 					$(document).ready(function(){
 							$('#detalle').fadeIn(2000);
+							$('#pantalla').fadeIn(2000);					
 					});"></a>
 			</div>
 			<div class="menupolloint1">
 				<a href="#four" onclick="javascript:
 					$(document).ready(function(){
 							$('#detalle').fadeIn(2000);
+							$('#pantalla').fadeIn(2000);					
 					});"></a>
 			</div>
 			<div class="menupolloder2">
 				<a href="#five" onclick="javascript:
 					$(document).ready(function(){
 							$('#detalle').fadeIn(2000);
+							$('#pantalla').fadeIn(2000);					
 					});"></a>
 			</div>
 		</div>
 		</div>
 	</div>
+	
 	<!-- Slider Sobrepuesto -->		
-	<div id="detalle" class="slider">
-		<div class="cerrar">
-		<a href="#" onclick="javascript:
-					  $('#detalle').each(function() {
-						displaying = $(this).css('display');
-						if(displaying == 'block') {
-						  $(this).fadeOut('slow',function() {
-						   $(this).css('display','none');
+	<div class="pantalla" id="pantalla">
+		<div id="detalle" class="slider">
+			<div class="cerrar">
+			<a href="#" onclick="javascript:
+						  $('#detalle').each(function() {
+							displaying = $(this).css('display');
+							if(displaying == 'block') {
+							  $(this).fadeOut('slow',function() {
+							   $(this).css('display','none');
+							  });
+							} else {
+							  $(this).fadeIn('slow',function() {
+								$(this).css('display','block');
+							  });
+							}
 						  });
-						} else {
-						  $(this).fadeIn('slow',function() {
-							$(this).css('display','block');
+						  $('#pantalla').each(function() {
+							displaying = $(this).css('display');
+							if(displaying == 'block') {
+							  $(this).fadeOut('slow',function() {
+							   $(this).css('display','none');
+							  });
+							} else {
+							  $(this).fadeIn('slow',function() {
+								$(this).css('display','block');
+							  });
+							}
 						  });
-						}
-					  });
-					"></a>
+						"></a>
+			</div>
+			<div >
+			<ul class="frames">
+				<li id="one" class="slide">
+					<img src="http://lorempixel.com/450/250/animals" alt="Slide 1">  
+				</li>
+				<li id="two" class="slide">
+					<img src="http://lorempixel.com/450/250/sports" alt="Slide 2">
+				</li>
+				<li id="three" class="slide">
+					<img src="http://lorempixel.com/450/250/nature" alt="Slide 3">
+				</li>
+				<li id="four" class="slide">
+					<img src="http://www.lorempixel.com/450/250/food" alt="Slide 4">
+				</li>
+				<li id="five" class="slide">
+					<img src="http://www.lorempixel.com/450/250/food" alt="Slide 4">
+				</li>
+				<li class="quicknav">
+					<ul>
+						<li><a href="#one"></a></li>
+						<li><a href="#two"></a></li>
+						<li><a href="#three"></a></li>
+						<li><a href="#four"></a></li>
+						<li><a href="#five"></a></li>
+					</ul>
+				</li>
+			</ul>
+		 </div>
 		</div>
-		<div >
-		<ul class="frames">
-			<li id="one" class="slide">
-				<img src="http://lorempixel.com/450/250/animals" alt="Slide 1">  
-			</li>
-			<li id="two" class="slide">
-				<img src="http://lorempixel.com/450/250/sports" alt="Slide 2">
-			</li>
-			<li id="three" class="slide">
-				<img src="http://lorempixel.com/450/250/nature" alt="Slide 3">
-			</li>
-			<li id="four" class="slide">
-				<img src="http://www.lorempixel.com/450/250/food" alt="Slide 4">
-			</li>
-			<li id="five" class="slide">
-				<img src="http://www.lorempixel.com/450/250/food" alt="Slide 4">
-			</li>
-			<li class="quicknav">
-				<ul>
-					<li><a href="#one"></a></li>
-					<li><a href="#two"></a></li>
-					<li><a href="#three"></a></li>
-					<li><a href="#four"></a></li>
-					<li><a href="#five"></a></li>
-				</ul>
-			</li>
-		</ul>
-	 </div>
-	</div>
+	</div	>
 	<!-- Menu Inferior -->
 	<div class="menuAux">
 		<div class="topAux-nav">

@@ -1019,10 +1019,8 @@ button.submit:active {
 /* Slider */
 .slider {
     height: 250px;
-    left: 50%;
-    margin: 0px -225px;
-    position: absolute;
-    top: 50%;
+    margin: 310px 450px;
+    --position: absolute;
     width: 450px;
 	display: none;
     /*box-shadow
@@ -1138,8 +1136,21 @@ button.submit:active {
 .cerrar p{
 	padding: 0px 20px 0px 0px;
 	float:right;
-<<<<<<< HEAD
 }
-=======
+
+.pantalla{
+      background:#F0F0F0;
+      width: 100%; 
+      height: 150%;
+      filter:alpha(opacity=50); 
+      opacity:0.95; 
+       margin: 0px;
+      position: absolute; 
+      left: 0px; 
+      top: 0px;
+      right: 0px;
+      z-index:1000; 
+      margin: 0px;
+      padding: 0px;
+      display: none;
 }
->>>>>>> origin/master
